@@ -5,20 +5,20 @@ import logo from '../assets/static/giphy.gif'
 const Header = () => (
   <header className='header'>
     <img className='header__img' src={logo} alt='logo' />
-    <ul>
-      <li>
+    <ul className='header__lista'>
+      <li className='header__lista--element'>
         <Link to='/'>
           Inicio
         </Link>
       </li>
-      <li>
+      <li className='header__lista--element'>
         <Link to='/miproyecto'>
           Mi proyecto
         </Link>
       </li>
-      <li>
+      <li className='header__lista--element'>
         <Link to='/fase'>
-          Fase
+          Estandares
         </Link>
       </li>
     </ul>

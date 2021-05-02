@@ -1,9 +1,7 @@
 import React from 'react'
-
+import Estandares from '../components/Estandares'
 const Fase = () => (
-  <div>
-    Fase 1
-  </div>
+  <Estandares />
 )
 
 export default Fase

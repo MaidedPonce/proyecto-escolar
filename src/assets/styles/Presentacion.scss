@@ -1,10 +1,12 @@
 .section {
+    background: #000000ba;
     font-size: 40px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-left: 30px;
-    height: 600px;
+    height: 625px;
     width: inherit;
+    text-shadow: 0 0 5px #605b63, 0 0 10px #f6e1ff, 0 0 20px #f6e1ff, 0 0 40px #efdeff, 0 0 80px #7c6d7d, 0 0 90px #868586, 0 0 100px #868586, 0 0 140px #868586, 0 0 180px #868586; 
 }

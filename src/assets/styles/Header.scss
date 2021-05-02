@@ -18,12 +18,12 @@
     margin-left: 20px;
 }
 
-ul {
+.header__lista {
     display: flex;
     padding: 26px;
     list-style: none;
 }
-li {
+.header__lista--element {
     margin-right: 20px;
     padding: 26px;
 }
@@ -31,7 +31,7 @@ a {
     color: white;
     text-decoration: none;
 }
-li:hover {
+.header__lista--element:hover {
    background-color: #7700aa;
    cursor: pointer;
 }

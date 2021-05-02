@@ -6,9 +6,9 @@ const Miproyecto = () => (
       HUILTEC
     </div>
     <div className='section2__dos'>
-      <h4>
+      <h2>
         Qué es esto!?
-      </h4>
+      </h2>
       <p>
         Crearé de un podcast hablando sobre educación tecnológica o temas tecnológicos. {'\n'}
 
