@@ -1,0 +1,5 @@
+deploy: 
+  provider: heroku
+  app: maidedhp-modulo23
+  api_key: 
+    secure: $HEROKU_API_KEY
