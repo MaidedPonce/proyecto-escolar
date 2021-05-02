@@ -36,6 +36,18 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|gif|jpg|jpeg|gif|ico)$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'file-loader?name=[name].[ext]',
+            options: {
+              name: 'assets/[hash].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
@@ -49,7 +61,9 @@ module.exports = {
     })
   ],
   devServer: {
+    historyApiFallback: true,
     contentBase: path.join(__dirname, 'dist'),
+    watchContentBase: true,
     compress: true,
     port: 3000
   }
