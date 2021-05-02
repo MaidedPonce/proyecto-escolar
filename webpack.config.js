@@ -1,7 +1,6 @@
 const path = require('path')
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const WebpackDevServer = require('webpack-dev-server')
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -59,9 +58,6 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css'
-    }),
-    new WebpackDevServer(compiler, {
-      disableHostCheck: true
     })
   ],
   devServer: {
